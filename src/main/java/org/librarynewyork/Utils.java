@@ -125,7 +125,7 @@ public class Utils {
     }
 
     public void userLoginFlow(){
-        System.out.println("******** User Login **********");
+        System.out.println("******** User Login Area **********");
     }
 
     public void adminLoginSuccess(User selected){
