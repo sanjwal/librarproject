@@ -15,14 +15,6 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
     }
-
-    public static ArrayList<User> sampledata() {
-        User user1 = new User("user1", "123", "sanjwal", "sr");
-        User user2 = new User("user2", "321", "jim", "alex");
-        ArrayList<User> allUsers = new ArrayList<User>();
-        allUsers.add(user1);
-        allUsers.add(user2);
-
-        return allUsers;
-    }
 }
+
+

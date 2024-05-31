@@ -7,6 +7,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 import org.librarynewyork.models.Book;
+import org.librarynewyork.models.Genre;
+import org.librarynewyork.models.User;
 
 import java.util.ArrayList;
 
@@ -58,7 +60,18 @@ public class Main {
 
 
         //utils.close();
+        int book=7;
+        boolean book1= true;
+        double book2= 2.3;
+        String book3= "String";
+        Book book10= new Book("1","harrypotter", "2000", "Jk", 100);
+        System.out.print(book10.name);
 
+      User user1= new User("Sanjwal", "123","Sanjwal","Srivastava");
+    System.out.print(user1.firstName);
+
+    Genre genre1= new Genre("Horror", "Very popular", "Haunted house");
+    System.out.print(genre1.popularity);
 
     }
 

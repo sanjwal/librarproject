@@ -26,15 +26,5 @@ public class Card {
         this.email = email;
         this.booksCheckOutCount = booksCheckOutCount;
     }
-    public static ArrayList<Card> sampleData(){
-        Card card1 = new Card("1", "Sean", "2025", "982822","123", "male", "25", "abc@gmail.com", 2);
-        Card card2= new Card("2","Ashish","124","4252558786", "5432", "2005", "gmail", "12", 5 );
-
-        ArrayList<Card> allcard = new ArrayList<Card>();
-        allcard.add(card1);
-        allcard.add(card2);
-
-        return allcard;
-    }
 }
 
